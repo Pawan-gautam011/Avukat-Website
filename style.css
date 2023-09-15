@@ -348,8 +348,51 @@ body{
     gap: 20px;
   }
 
+  .slider-container {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    position: absolute;
+    margin-top: 80px;  
+  }
+  .judgeharu{
+    position: absolute;
+    display: flex;
+    height: 70vh;
+    width: 80%;
+    background-color: #192836;
+    margin-top: 800px;
+    margin-left: 100px;
+  }
+.judge{
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.one-side h2,h3{
+    margin-left: 120px;
+    line-height: 40px;
+    
+}
+.one-side h1{
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+   
+}
+.one-side img{
+    border: solid #cdb091;
+    border-radius: 50px;
+    margin: 40px 150px;
 
-
-
-
-
+}
+.another-side img{
+    position: relative;
+    margin-left:117px ;
+    height: 70vh;
+}
+   
