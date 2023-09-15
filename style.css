@@ -371,7 +371,9 @@ body{
     justify-content: center;
     align-items: center;
     
+    
 }
+
 .one-side h2,h3{
     margin-left: 120px;
     line-height: 40px;
@@ -388,11 +390,50 @@ body{
     border: solid #cdb091;
     border-radius: 50px;
     margin: 40px 150px;
+    transition: all 0.15s ease;
 
 }
+
+.one-side input{
+    display: none;
+}
+/* .dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {
+    background: #fff;
+}
+#img1:checked ~ .one-side {
+    margin-left: -300px;
+}
+#img2:checked ~ .m2 {
+    margin-left: 0;
+   
+}
+#img3:checked ~ .m3 {
+    margin-left: 0;
+} */
+
+
 .another-side img{
     position: relative;
     margin-left:117px ;
     height: 70vh;
 }
-   
+
+
+
+
+
