@@ -62,9 +62,12 @@ function myFunction() {
       updateCounter()
   })
   
-
-
-
-
-
-
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});

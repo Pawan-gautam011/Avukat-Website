@@ -14,6 +14,7 @@
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
 />
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper@10/swiper-bundle.min.js"></script>
 </head>
 <body>
 <section class="header"> 
@@ -268,6 +269,108 @@ Lectus erat at risus quam sodales gravida<br> interdum. Nec non posuere lacus ph
 
 
 
+<!-- <section class="sixth-section">
+<div class="lines">
+  <div class="vertical-line"></div>
+  <div class="line">
+  <h2>Qualified Attorneys</h2>
+  <h1>Meet Our Experts</h1>
+</div>
+</div>
+<div class="arrowss">
+<i class="fa-solid fa-arrow-right"></i>
+
+<i class="fa-solid fa-arrow-left"></i>
+</div>
+  
+<img src="Real-Estate_files/image(16)" alt="" srcset="">
+<img src="Real-Estate_files/image(17)" alt="" srcset="">
+<img src="Real-Estate_files/image(18)" alt="" srcset="">
+<img src="Real-Estate_files/image(19)" alt="" srcset="">
+</section> -->
+
+
+<section class="sixth-section">
+  <div class="lines">
+      <div class="vertical-line"></div>
+      <div class="line">
+          <h2>Qualified Attorneys</h2>
+          <h1>Meet Our Experts</h1>
+      </div>
+  </div>
+  <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div class="expert">
+                  <img src="Real-Estate_files/image(17)" alt="Attorney 1">
+                  <div class="overlay">
+                      <h3>John Doe</h3>
+                      <p>Senior Attorney</p>
+                      <div class="social-icons">
+                          <a href="#"><i class="fab fa-facebook"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-github"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="swiper-slide">
+              <div class="expert">
+                  <img src="Real-Estate_files/image(18)" alt="Attorney 2">
+                  <div class="overlay">
+                      <h3>Jane Smith</h3>
+                      <p>Associate Attorney</p>
+                      <div class="social-icons">
+                          <a href="#"><i class="fab fa-facebook"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-github"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="expert">
+                  <img src="Real-Estate_files/image(19)" alt="Attorney 2">
+                  <div class="overlay">
+                      <h3>Jane Smith</h3>
+                      <p>Associate Attorney</p>
+                      <div class="social-icons">
+                          <a href="#"><i class="fab fa-facebook"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-github"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="expert">
+                  <img src="Real-Estate_files/image(20)" alt="Attorney 2">
+                  <div class="overlay">
+                      <h3>Jane Smith</h3>
+                      <p>Associate Attorney</p>
+                      <div class="social-icons">
+                          <a href="#"><i class="fab fa-facebook"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-github"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+
+      </div>
+  </div>
+</section>
+
+
+
+
 
 
 
@@ -278,7 +381,43 @@ Lectus erat at risus quam sodales gravida<br> interdum. Nec non posuere lacus ph
   
 
 <script src="script.js"></script>
+<script>
+  // Initialize Swiper
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1, // Number of slides per view
+    spaceBetween: 20, // Space between slides
+    loop: true, // Enable loop mode
+    autoplay: {
+      delay: 3000, // Auto-play interval in milliseconds (adjust as needed)
+    },
+  });
+</script>
 </body>
+
+<script>
+  // Initialize Swiper
+  const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: '#next-slide',
+      prevEl: '#prev-slide',
+    },
+  });
+
+  // Hover effect on images
+  const imageCards = document.querySelectorAll('.image-card');
+
+  imageCards.forEach((card) => {
+    card.addEventListener('mouseover', () => {
+      card.querySelector('.card-overlay').style.opacity = 1;
+    });
+
+    card.addEventListener('mouseout', () => {
+      card.querySelector('.card-overlay').style.opacity = 0;
+    });
+  });
+</script>
 </html>
 
 
