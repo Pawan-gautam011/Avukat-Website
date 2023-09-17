@@ -630,20 +630,20 @@ body{
     font-family: "DM Serif Text",serif;    
 }
 .lines{
+    position: relative;
     margin: 30px 130px;
     line-height: 2px;
 }
 
 .sixth-section{
     display: flex;
-    margin: -1px 40px;
     
 }
 
 .sixth-section .vertical-line{
     position: relative;
     width: 2px;
-    height: 65%;
+    height: 8%;
     background-color: #CDB091; 
     left: -9%;
     top: 130px;
@@ -669,21 +669,31 @@ body{
 .arrowss:hover{
     color: #e8d6c2;
 } */
-.lines h1{
-    margin-bottom: 30px;
+
+.line{
+    position: relative;
+    margin-top: -550px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.line h1{
     font-weight: 400;
-    font-size: 40px;
+    font-size: 25px;
     position: relative;
     text-transform: capitalize;
     font-family: "DM Serif Text",serif;
     color: #fff;
     margin-left: 20px;
+    top: 650px;
 }
-.lines h2{
-    font-size: 20px;
+.line h2{
+    font-size: 16px;
     font-weight: 400;
     line-height: 55px;
-    margin:  26px;
+    position: absolute;
+    margin-top:600px;
+    margin-left: 18px; 
     color: #CDB091;
 }
 
@@ -691,8 +701,9 @@ body{
 
 /* Swiper styles */
 .swiper-container {
-    margin-top: 20px; /* Adjust this value to your layout */
-    /* width: 100%; */
+    position: relative;
+    margin-top: 200px; 
+   
      max-width: 800px;
     overflow: hidden;
   }
@@ -701,11 +712,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    margin-top: 200px; 
   }
   
   /* Hover effect */
   .swiper-slide:hover .overlay {
     opacity: 1;
+    /* linear-gradient */
   }
   
   .overlay {
@@ -746,6 +760,7 @@ body{
     color: #fde2c6;
   }
   
+
 
 
 
