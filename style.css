@@ -252,6 +252,36 @@ body{
 } */
 
 
+
+
+
+
+
+
+
+.judge {
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+    
+}
+
+.one-side {
+    display: flex;
+    animation: slide 5s linear infinite;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
 .second-section{
     margin-top: 150px;
 }
@@ -374,7 +404,8 @@ body{
     position: absolute;
     margin-top: 80px;  
   }
-  .judgeharu{
+
+  .judgeharu {
     position: absolute;
     display: flex;
     height: 70vh;
@@ -383,29 +414,61 @@ body{
     margin-top: 800px;
     margin-left: 100px;
   }
+  
+
 .judge{
     padding: 30px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    overflow: hidden;
+    width: 300px;
     
-    
+   
 }
 
-.one-side h2,h3{
-    margin-left: 120px;
+
+
+.carousel-container {
+    display: flex;
+    /* animation: slide 10s linear infinite; */
+    animation: slide 20s linear;
+}
+
+.carousel-item {
+    min-width: 300px;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: center;
+    border: none;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.carousel-item h2,h3{
+    margin-left: 70px;
     line-height: 40px;
     
 }
-.one-side h1{
+.carousel-item h1{
     margin-top: 0;
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
    
 }
-.one-side img{
+.carousel-item img{
     border: solid #cdb091;
     border-radius: 50px;
     margin: 40px 150px;
@@ -413,42 +476,10 @@ body{
 
 }
 
-.one-side input{
-    display: none;
-}
-/* .dots{
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-    
-}
-.dots label {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: solid #fff 3px;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    margin: 5px;
-}
-.dots label:hover {
-    background: #fff;
-}
-#img1:checked ~ .one-side {
-    margin-left: -300px;
-}
-#img2:checked ~ .m2 {
-    margin-left: 0;
-   
-}
-#img3:checked ~ .m3 {
-    margin-left: 0;
-}  */
-
 
 .another-side img{
     position: relative;
-    margin-left:117px ;
+    margin-left:250px ;
     height: 70vh;
 }
 
@@ -637,6 +668,8 @@ body{
 
 .sixth-section{
     display: flex;
+    position: absolute;
+    margin-top: -100px;
     
 }
 
@@ -713,10 +746,10 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 200px; 
+    /* margin-top: 200px;  */
   }
   
-  /* Hover effect */
+  
   .swiper-slide:hover .overlay {
     opacity: 1;
     /* linear-gradient */
@@ -763,7 +796,30 @@ body{
 
 
 
+.seventh-section{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 50px;
+}
 
+.contact-info{
+    font-weight: 400;
+    /* font-size: 40px; */
+    line-height: 35px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+}
 
 
 

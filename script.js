@@ -71,3 +71,44 @@ function myFunction() {
         prevEl: '.swiper-button-prev',
     },
 });
+
+
+
+const carouselContainer = document.querySelector('.carousel-container');
+let animationDuration = 5; // Default animation duration in seconds
+
+function updateAnimationDuration(duration) {
+    const animationStyle = `slide ${duration}s linear infinite`;
+    carouselContainer.style.animation = animationStyle;
+}
+
+// Call the function with the initial animation duration
+updateAnimationDuration(animationDuration);
+
+// You can later update the animation duration as needed
+animationDuration = 3; // For example, change the duration to 3 seconds
+updateAnimationDuration(animationDuration);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
