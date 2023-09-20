@@ -794,24 +794,37 @@ body{
   }
   
 
-
-
 .seventh-section{
     display: flex;
     justify-content: space-between;
     position: absolute;
     margin-top: 700px;
-    margin-left: 50px;
-    height: 100%;
+    margin-left: 150px;
+    height: 110%;
     width: 80%;
+    line-height: 35px;
     background-color: #112a43;
     padding: 50px 70px;
 }
 
+
 .contact-info{
     font-weight: 400;
-    /* font-size: 40px; */
-    line-height: 35px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.contact-info i{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-info h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
     color: #fff;
     position: relative;
     padding-bottom: 15px;
@@ -819,43 +832,318 @@ body{
 }
 
 
+.contact-info p{
+    font-size: 18px;
+    
+}
+
+.left-side{
+    margin: 30px 50px;
+    line-height: 20px;
+}
+
+.left-side h2{
+    font-size: 22px;
+    margin: 0 10px;  
+}
+.left-side h3{
+    font-size: 16px;
+    margin: 0 10px;
+}
+.left-side i{
+    position: absolute;
+    margin-left: -50px;
+    font-size: 35px;
+    margin-top: 0px;
+}
 
 .contact-us{
     display: flex;
+    position: relative;
     flex-direction: column;
     background-color: #CDB091;
     width: 100%;
-    height: 100%;
-    margin: 0 200px;
-    padding: 0 ;
+    height: 117%;
+    margin-left: 150px;
+    top: -8%;
+    color: #fff;
+
+}
+.headingg{
+    line-height: 55px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 125px;
+    font-size: 20px;
 }
 .contact{
-    margin: 0 100px;
+    margin: 50px 8px;
     padding: 0 30px;
     display: flex;
     flex-direction: column;
-   line-height: 50px;
+    line-height: 50px;
+    gap: 20px;
+    border: 0;
+
+ 
+}
+.contact h1{
+    font-size:20px;
+}
+.contact h2{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #fff;
 }
 input[type="text"]{
-    width: 60%;
-    padding: 10px;
+    width: 100%;
+    padding: 20px;
     border: 1px solid #ccc;
-    background-color: #f2f2f2;
+    background-color: transparent;
     outline: none;
+
+   
+} 
+
+#law-type {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+    color: gray;
+  }
+
+
+
+  #case-description {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    resize: vertical; 
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  
+  
+
+  .vertical-line {
+    margin-top: -20px;
+    height: 0.3%;
+    width: 70%;
+  
+    background-color:#CDB091;
+    position: absolute;
+    left:35%;
+    transform: translateX(-50%);
+  }
+  
+
+  .left-side .milena {
+    margin-bottom: 15px;
+  }
+
+
+
+
+
+
+  /* Styles for the button */
+.animated-button {
+    background-color: #112a43;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  /* Create a pseudo-element for the button animation */
+  .animated-button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0b1e2d; /* Change to your desired animation color */
+    z-index: -1;
+    transition: height 0.3s ease;
+  }
+  
+  .animated-button:hover::before {
+    height: 100%;
+  }
+  
+ 
+  .eight-section{   
+    margin-top: 1600px;
+    margin-left: 170px;
+  }
+
+.pailo-sec{
+    display: flex;
+    justify-content:space-between ;
+}
+  .eight-section h2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #cdb091;
 }
 
+.eight-section h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    position: relative;
+    text-transform: capitalize;
+    font-family: "DM Serif Text",serif;
+    margin: 0;
+    color: #fff;
+}
+  .blog-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 67px;
+
+  }
+
+  .eight-section .blog-first img {
+    width: 100%; 
+    margin-right: 20px; 
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+
+  .first{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 20px -70px;  
+    font-size: 15px;
+    color: #bebebe;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+
+.first li{
+    position: relative;
+    margin: 10px 10px;
+}
+
+.hello{
+    cursor: pointer;
+
+}
+.hello:hover{
+    color: #ae9a84;
+}
+
+.blog-first{
+    margin-left: -90px;
+    
+}
+
+.blog-first p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.blog-first p:hover{
+    color:#CDB091 ;
+}
+
+.blog-first span{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    padding-left: 60px;
+    color: #cdb091;
+    position: relative;
+    margin: 20px ;
+    cursor: pointer;
+}
+
+.vertical-line1{
+    margin-top: 30px;
+    height: 0.3%;
+    width: 4%;
+    background-color:#CDB091;
+    position: absolute;
+    left:14.5%;
+    transform: translateX(-50%);
+}   
+.vertical-line2{
+    margin-top: 30px;
+    height: 0.3%;
+    width: 4%;
+    background-color:#CDB091;
+    position: absolute;
+    left:44%;
+    transform: translateX(-50%);
+}   
+.vertical-line3{
+    margin-top: 30px;
+    height: 0.3%;
+    width: 4%;
+    background-color:#CDB091;
+    position: absolute;
+    left:74%;
+    transform: translateX(-50%);
+}   
 
 
 
 
+.eight-section 
+.vertical-line{
+
+width: 1px;
+height: 100px;
+margin: 0 -330px;
+
+}
+
+.eight-section button{
+    border: 1px solid #fff;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 30px 200px ;
+    padding: 15px 50px;
+    transition: 0.3s ease;
+    color: #fff; 
+  }
 
 
-
-
-
-
-
-
-
-
-  
+  .eight-section button:hover{
+    background:#cdb091;
+    border: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
