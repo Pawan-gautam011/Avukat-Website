@@ -2,7 +2,6 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
   
-  // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -86,10 +85,8 @@ function updateAnimationDuration(duration) {
 updateAnimationDuration(animationDuration);
 
 // You can later update the animation duration as needed
-animationDuration = 3; // For example, change the duration to 3 seconds
+animationDuration = 20; // For example, change the duration to 3 seconds
 updateAnimationDuration(animationDuration);
-
-
 
 
 
