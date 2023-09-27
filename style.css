@@ -231,8 +231,10 @@ body{
     justify-content: center;
     font-weight: 400;
     font-size: 20px;
+    margin-left: -150px;
 
 }
+
 
 .about h6{
     font-weight: 400;
@@ -246,17 +248,15 @@ body{
     color: #fff;
 }
 
-
-/* u{
-    color: #CDB091;
-} */
-
-
-
-
-
-
-
+.about .vertical-line {
+  position: absolute;
+  width: 7%; 
+  height: 0.2%;
+  background-color: #CDB091; 
+  left: 46%; 
+  top: 990px;
+  transform: translateX(-50%); 
+}
 
 
 .judge {
@@ -283,7 +283,7 @@ body{
 
 
 .second-section{
-    margin-top: 150px;
+    margin-top: 80px;
 }
 .second-section h1{
     font-size: 30px;
@@ -339,25 +339,17 @@ body{
     width: 2px;
     height: 15%;
     background-color: #CDB091; 
-      left: 8%;
-    top: 1840px;
+    left: 8%;
+    top: 1800px;
     transform: translateX(-50%);
   }
   
- .about .vertical-line {
-    position: absolute;
-    width: 7%; 
-    height: 0.2%;
-    background-color: #CDB091; 
-    left: 50%; 
-    top: 905px;
-    transform: translateX(-50%); 
-  }
+
 .third-section span{
     font-weight: 400;
     font-size: 20px;
     color: #cdb091;
-    margin:150px;
+    margin:15px 215px;
 }
 
 .third-section h2{
@@ -411,10 +403,12 @@ body{
     height: 70vh;
     width: 80%;
     background-color: #192836;
-    margin-top: 800px;
-    margin-left: 100px;
+    margin-top: 200px;
+    margin-left: 160px;
   }
   
+
+
 
 .judge{
     padding: 30px;
@@ -425,8 +419,7 @@ body{
     display: flex;
     overflow: hidden;
     width: 300px;
-    
-   
+     
 }
 
 
@@ -473,8 +466,9 @@ body{
     border-radius: 50px;
     margin: 40px 150px;
     transition: all 0.15s ease;
-
 }
+
+
 
 
 .another-side img{
@@ -485,7 +479,7 @@ body{
 
 .fourth-section button{
     position: absolute;
-    margin-top: 240%;
+    margin-top: 225%;
     margin-left: 70%;
     font-size: 12px;
 }
@@ -494,11 +488,11 @@ body{
     color: #fff;
     padding: 60px 0;
     text-align: center;
-    margin-top: 1600px;
+    margin-top: 1100px;
 }
 .four-img{
     margin-top: -300px;
-    margin-left: -700px;
+    margin-left: -800px;
     
 }
 
@@ -629,7 +623,7 @@ body{
     height: 15%;
     background-color: #CDB091;
     left: 8%; 
-    top: 3290px;
+    top: 3399px;
     transform: translateX(-50%); 
   
 }
